@@ -1,0 +1,13 @@
+<h1>Weapons</h1>
+
+<ul *ngIf="weapons">
+  <li *ngFor="let num of weapons; let i = index">
+    <p class="name">
+      <strong>{{ weapons[i].name }}</strong>
+    </p>
+    <p class="desc">{{ weapons[i].description }}</p>
+    <p class="rpm">
+      <em>{{ weapons[i].class }}, RPM: {{ weapons[i].rpm }}</em>
+    </p>
+  </li>
+</ul>

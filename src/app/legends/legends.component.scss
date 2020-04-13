@@ -1,0 +1,28 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  li {
+    background: rgba(238, 238, 238);
+    padding: 1em;
+    margin-right: 10px;
+    width: 20%;
+    height: 200px;
+    margin-bottom: 1em;
+    display: flex;
+    flex-direction: column;
+
+    p {
+      margin: 0;
+      padding-bottom: 1em;
+    }
+
+    img {
+      width: 100px;
+    }
+  }
+}

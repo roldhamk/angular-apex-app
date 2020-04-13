@@ -1,0 +1,13 @@
+<h1>Legends</h1>
+
+<ul *ngIf="legends">
+  <li *ngFor="let num of legends; let i = index">
+    <p class="name">{{ legends[i].name }}</p>
+    <p class="motto">
+      <em>{{ legends[i].motto }}</em>
+    </p>
+    <p class="type">
+      <strong>{{ legends[i].type }}</strong>
+    </p>
+  </li>
+</ul>
